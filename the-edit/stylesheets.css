@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+html body {	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.section div {
+	text-decoration: none;
+	color: white;
+}
+
+.sr-only {
+	font-size: 0;
+}
+.header {
+	width: 100%;
+}
+.search {
+	display: inline;
+}
+.menu ul {
+	width: 100%;
+	display: inline;
+}
+.menu li {
+	width: 100%;
+	display: inline;
+}
+.horizantal {
+	display: inline;
+}
+
+.logo {
+	text-align: center;
+}
+
+.cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+.profile {
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+.writer_profile {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.writer {
+	display: inline-block;
+	position: absolute;
+	margin: auto ;
+    top: 0;
+    bottom: 0;
+    height: 34%;
+}
+.post {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 10%;
+	text-align: center;
+}
+.post div {
+	display: inline;
+	border-bottom: solid;
+	border-color: orange;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+.post h3 {
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+
+.section {
+	width: 100%;
+	position: relative;
+	background-color: gray;
+}
+.section::after{
+	/* .section의 크기를 브라우저가 인식하게 하기 위한 가상요소 */
+	content: '';
+	display: block;
+	clear: both;
+}
+.main {
+	width: 50%;
+	height: 878px;
+	/*border-top: solid;
+	border-color: white;*/
+}
+.sub {
+	width: 50%;
+	height: 439px;
+	background-color: black;
+	position: relative;
+	/*border-top: solid;
+	border-color: white;*/
+}
+.article {
+	width: 50%;
+	position: relative;	
+	background: #262626;
+	border-bottom: 2px solid white;
+}
+
+.border_right {
+	border-right: 1px solid white;
+}
+.border_left {
+	border-left: 1px solid white;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+.pagination {
+	text-align: center;
+	padding: 20px;
+}
+.pagination_number {
+	border: 1px solid #eaeaea;
+	background-color: #f6f6f6;
+	font-weight: 700;
+	color: #777;
+	display: inline;
+	margin: 0 10px 0 0;
+	padding: 4px 11px;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	border-top: solid;
+	border-color: gray;
+}
